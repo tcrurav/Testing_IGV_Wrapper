@@ -1,27 +1,38 @@
 # IgvWrapperDatavisyn
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+This is a project to test an IGV wrapper ready to be used in Angular with TypeScript.
 
-## Development server
+After creating an Angular project I just used the documentation here:
+* https://www.npmjs.com/package/igv_wrapper
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Running this project
 
-## Code scaffolding
+Download this project from github:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+````
+git clone https://github.com/tcrurav/Testing_IGV_Wrapper.git
+````
 
-## Build
+After that just run the following as any other angular project:
+````
+cd Testing_IGV_Wrapper/
+npm install
+ng serve -o
+````
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Enjoy!!!
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Built With
 
-## Running end-to-end tests
+* [Visual Studio Code](https://code.visualstudio.com/) - The Editor used in this project
+* [Angular](https://angular.io/) - Angular is an application design framework and development platform for creating efficient and sophisticated single-page apps.
+* [igv_wrapper](https://github.com/datavisyn/igv_wrapper) - This is an UMD compatible wrapper around igv.js with additional TypeScript typings.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Acknowledgments
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* https://www.npmjs.com/package/igv_wrapper. This is an UMD compatible wrapper around igv.js with additional TypeScript typings.
+* http://software.broadinstitute.org/software/igv/. The Integrative Genomics Viewer (IGV) is a high-performance, easy-to-use, interactive tool for the visual exploration of genomic data.
+* https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html. Read all this section of the TypeScript documentation to learn about modules, d.ts typings all the stuff relating TypeScript declaration files.
+* https://www.typescriptlang.org/dt/search?search=igv. A good place to look for typings already available. The link shows the ones related to IGV.
