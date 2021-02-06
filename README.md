@@ -2,6 +2,9 @@
 
 This is a project to test an IGV wrapper ready to be used in Angular with TypeScript.
 
+This is the result:
+![Create Project](/docs/screenshot-1.png)
+
 After creating an Angular project I just used the documentation here:
 * https://www.npmjs.com/package/igv_wrapper
 
