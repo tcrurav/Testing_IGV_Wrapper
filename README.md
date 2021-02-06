@@ -1,4 +1,4 @@
-# IgvWrapperDatavisyn
+# Testing Datavisyn's igv_wrapper
 
 This is a project to test an IGV wrapper ready to be used in Angular with TypeScript.
 
